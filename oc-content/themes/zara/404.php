@@ -3,6 +3,7 @@
   <head>
     <?php osc_current_web_theme_path('head.php') ; ?>
     <meta name="robots" content="noindex, nofollow" />
+    <!-- Add comment -->
     <meta name="googlebot" content="noindex, nofollow" />
     <script type="text/javascript" src="<?php echo osc_current_web_theme_js_url('jquery.validate.min.js') ; ?>"></script>
   </head>
