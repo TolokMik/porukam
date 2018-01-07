@@ -1,0 +1,698 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Osclass Robokassa\n"
+"POT-Creation-Date: 2016-02-05 19:14+0300\n"
+"PO-Revision-Date: 2016-06-15 23:08+0300\n"
+"Last-Translator: Dis <disruptive555@gmail.com>\n"
+"Language-Team: support@osclass-pro.com\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+
+#: admin/bonus.php:18
+#, php-format
+msgid "Add bonus to user (%s)"
+msgstr ""
+
+#: admin/bonus.php:28
+msgid "Congratulations, the Bonus is now added"
+msgstr ""
+
+#: admin/bonus.php:33 admin/bonus.php:48
+msgid "Add Bonus"
+msgstr ""
+
+#: admin/bonus.php:42 admin/log.php:21
+msgid "User e-mail"
+msgstr ""
+
+#: admin/bonus.php:53
+msgid "Add"
+msgstr ""
+
+#: admin/conf.php:33 admin/conf_prices.php:19
+msgid "Congratulations, the plugin is now configured"
+msgstr ""
+
+#: admin/conf.php:44
+msgid "Follow us"
+msgstr ""
+
+#: admin/conf.php:54 admin/conf.php:61
+msgid "Robakassa settings"
+msgstr ""
+
+#: admin/conf.php:55 admin/conf_prices.php:63
+msgid "Category prices"
+msgstr ""
+
+#: admin/conf.php:56
+msgid "Robakassa log"
+msgstr ""
+
+#: admin/conf.php:57
+msgid "Bonus"
+msgstr ""
+
+#: admin/conf.php:58 admin/help.php:3
+msgid "Help"
+msgstr ""
+
+#: admin/conf.php:72
+msgid "Premium ads"
+msgstr "ExPRESS ads"
+
+#: admin/conf.php:77
+msgid "Allow premium ads"
+msgstr "Allow ExPRESS ads"
+
+#: admin/conf.php:83
+msgid "Default premium cost"
+msgstr ""
+
+#: admin/conf.php:89
+msgid "Premium days"
+msgstr "ExPRESS days"
+
+#: admin/conf.php:95
+msgid "Publish fee"
+msgstr ""
+
+#: admin/conf.php:100
+msgid "Pay per post ads"
+msgstr ""
+
+#: admin/conf.php:106
+msgid "Default publish cost"
+msgstr ""
+
+#: admin/conf.php:110
+msgid "Move to Top"
+msgstr "Raise to TOP"
+
+#: admin/conf.php:115
+msgid "Allow move to top"
+msgstr ""
+
+#: admin/conf.php:123
+msgid "Default move to top"
+msgstr ""
+
+#: admin/conf.php:129 index.php:103 user/after.php:44 user/after.php:54
+#: user/after.php:57 user/after.php:61 user/makecolor.php:25
+#: user/makecolor.php:28 user/makecolor.php:32 user/menu.php:21
+#: user/menu.php:77
+msgid "Highlight"
+msgstr "HighLIGHT"
+
+#: admin/conf.php:134
+msgid "Allow highlighting"
+msgstr ""
+
+#: admin/conf.php:140
+msgid "Default highlighting"
+msgstr ""
+
+#: admin/conf.php:146
+msgid "Highlighting days"
+msgstr ""
+
+#: admin/conf.php:151
+msgid "Insert buttons for services in item page"
+msgstr ""
+
+#: admin/conf.php:153
+msgid "Item Premium Button"
+msgstr ""
+
+#: admin/conf.php:158 admin/conf.php:169 admin/conf.php:180
+msgid "Insert button"
+msgstr ""
+
+#: admin/conf.php:164
+msgid "Item Top Button"
+msgstr ""
+
+#: admin/conf.php:175
+msgid "Item Highlited Button"
+msgstr ""
+
+#: admin/conf.php:185
+msgid ""
+"After the published ad redirect to page immediately offered to pay Premium "
+"and Highlighting"
+msgstr ""
+"After the published ad redirect to page immediately offered to pay ExPRESS  "
+"and Highlighting"
+
+#: admin/conf.php:187
+msgid "After publish"
+msgstr ""
+
+#: admin/conf.php:192
+msgid "Allow after publish"
+msgstr ""
+
+#: admin/conf.php:197
+msgid "Allow after work only if Pay per post disable"
+msgstr ""
+
+#: admin/conf.php:200
+msgid "Currency"
+msgstr ""
+
+#: admin/conf.php:212
+msgid ""
+"You could specify up to 3 'packs' that users can buy, so they don't need to "
+"pay each time they publish an ad. The credit from the pack will be stored "
+"for later uses."
+msgstr ""
+
+#: admin/conf.php:216 admin/conf.php:220 admin/conf.php:224
+#, php-format
+msgid "Price of pack #%d"
+msgstr ""
+
+#: admin/conf.php:229
+msgid "Robokassa account settings."
+msgstr ""
+
+#: admin/conf.php:233
+msgid "ID shop"
+msgstr ""
+
+#: admin/conf.php:240
+msgid "Password1"
+msgstr ""
+
+#: admin/conf.php:247
+msgid "Password2"
+msgstr ""
+
+#: admin/conf.php:257
+msgid "Save changes"
+msgstr ""
+
+#: admin/conf_prices.php:74
+msgid "Category Name"
+msgstr ""
+
+#: admin/conf_prices.php:75
+#, php-format
+msgid "Premium fee (%s)"
+msgstr "ExPRESS fee (%s)"
+
+#: admin/conf_prices.php:76
+#, php-format
+msgid "Move to top(%s)"
+msgstr ""
+
+#: admin/conf_prices.php:77
+#, php-format
+msgid "Highlighting (%s)"
+msgstr ""
+
+#: admin/conf_prices.php:78
+#, php-format
+msgid "Publish fee (%s)"
+msgstr ""
+
+#: admin/conf_prices.php:82
+msgid "Update"
+msgstr ""
+
+#: admin/help.php:6
+msgid "Tips For Administrators"
+msgstr ""
+
+#: admin/help.php:8
+msgid "Metod - POST. Signature - MD5"
+msgstr ""
+
+#: admin/help.php:18
+msgid "After publish option"
+msgstr ""
+
+#: admin/help.php:20
+msgid ""
+"What is this function?If this feature is enabled. User after the published "
+"ad redirect to page immediately offered to pay Premium and Highlighting."
+msgstr ""
+
+#: admin/help.php:22
+msgid ""
+"This allows you to get more payments. Bottom of the After page there is a "
+"button - no thanks.The user can press it and nothing pay at once - publish a "
+"classified. Function work only if Publish fee is disabled!"
+msgstr ""
+
+#: admin/help.php:24
+msgid ""
+"If you test the plugin and publish listings from Front-end, you must logout "
+"from  admin part. Otherwise you will not see After publish option or Publish "
+"option."
+msgstr ""
+
+#: admin/help.php:28
+msgid "Setup highlighting"
+msgstr ""
+
+#: admin/help.php:30
+msgid ""
+"Need small modifictions of theme files. Need add 2 id with functions in "
+"search files.  In themes usualy this is search-list.php and search-gallery."
+"php or loop-single.php, loop-single-premium.php"
+msgstr ""
+
+#: admin/help.php:32
+msgid ""
+"For premium items id=\"&lt;?php "
+"if(function_exists('rbc_premium_get_class_color')){echo "
+"rbc_premium_get_class_color(osc_premium_id());}?&gt;\" ."
+msgstr ""
+
+#: admin/help.php:34
+msgid ""
+"For items id=\"&lt;?php if(function_exists('rbc_get_class_color')){echo "
+"rbc_get_class_color(osc_item_id());}?&gt;\""
+msgstr ""
+
+#: admin/help.php:36
+msgid "Example, the template Bender:"
+msgstr ""
+
+#: admin/help.php:38
+msgid "File loop-single.php - 2-line :"
+msgstr ""
+
+#: admin/help.php:40
+msgid ""
+"&lt;li class = \"listing-card &lt;?php echo $class; if(osc_item_is_premium())"
+"{echo'premium';}?&gt;\" id=\"&lt;?php "
+"if(function_exists('rbc_get_class_color')){echo "
+"rbc_get_class_color(osc_item_id());}?&gt;\"&gt;"
+msgstr ""
+
+#: admin/help.php:42
+msgid "File loop-single-premium.php :"
+msgstr ""
+
+#: admin/help.php:44
+msgid ""
+"&lt;li class = \"listing-card &lt;?php echo $class; if(osc_item_is_premium())"
+"{echo'premium';}?&gt;\" id=\"&lt;?php "
+"if(function_exists('rbc_premium_get_class_color')){echo "
+"rbc_premium_get_class_color(osc_premium_id());}?&gt;\"&gt;"
+msgstr ""
+
+#: admin/help.php:46
+msgid ""
+"and add the main.css #colorized{background:#F0E68C!important;} . Color of "
+"course you can change as you need."
+msgstr ""
+
+#: admin/help.php:49
+msgid "Insert buttons in item page style"
+msgstr ""
+
+#: admin/help.php:51
+msgid "Maybe you not like the style of buttons"
+msgstr ""
+
+#: admin/help.php:53
+msgid ""
+"You can change style of buttons in you theme css file. Buttons have class ."
+"rbc"
+msgstr ""
+
+#: admin/help.php:55
+msgid ""
+"Example, you can insert in you CSS style file code: .rbc{display: inline-"
+"block;float:left;width:auto;}"
+msgstr ""
+
+#: admin/log.php:12
+msgid "Robokassa log"
+msgstr ""
+
+#: admin/log.php:17
+msgid "ID"
+msgstr ""
+
+#: admin/log.php:18
+msgid "Date"
+msgstr ""
+
+#: admin/log.php:19
+msgid "Description"
+msgstr ""
+
+#: admin/log.php:20
+msgid "Amount"
+msgstr ""
+
+#: admin/log.php:22
+msgid "ItemID"
+msgstr ""
+
+#: admin/log.php:23
+msgid "Source"
+msgstr ""
+
+#: admin/log.php:24
+msgid "Product type"
+msgstr ""
+
+#: functions.php:124
+msgid "Pay with your credit"
+msgstr ""
+
+#: index.php:39
+msgid "Robokassa options"
+msgstr ""
+
+#: index.php:72
+msgid "Listings payment status"
+msgstr ""
+
+#: index.php:74
+msgid "Buy credit for Premium services"
+msgstr ""
+
+#: index.php:88 user/after.php:27 user/after.php:29 user/after.php:32
+#: user/makepremium.php:25 user/makepremium.php:28 user/makepremium.php:31
+#, php-format
+msgid "Premium fee for item %d"
+msgstr "ExPRESS fee for item %d"
+
+#: index.php:88 user/after.php:27 user/after.php:29 user/after.php:32
+#: user/makepremium.php:25 user/makepremium.php:28 user/makepremium.php:31
+#: user/menu.php:59
+msgid "Make Premium"
+msgstr "Make ExPRESS"
+
+#: index.php:103 user/after.php:54 user/after.php:57 user/after.php:61
+#: user/makecolor.php:25 user/makecolor.php:28 user/makecolor.php:32
+#, php-format
+msgid "Highlight fee for item %d"
+msgstr ""
+
+#: index.php:118 user/uptop.php:25 user/uptop.php:27 user/uptop.php:30
+#, php-format
+msgid "Move to Top for item %d"
+msgstr ""
+
+#: index.php:118 user/uptop.php:25 user/uptop.php:27 user/uptop.php:30
+msgid "Move to TOP"
+msgstr "Raise to TOP"
+
+#: index.php:210
+#, php-format
+msgid "Add wallet to user (%s)"
+msgstr ""
+
+#: index.php:214
+#, php-format
+msgid "Publish fee for item (%s)"
+msgstr ""
+
+#: index.php:218
+#, php-format
+msgid "Highlight fee for item (%s)"
+msgstr ""
+
+#: index.php:222
+#, php-format
+msgid "Move to Top fee for item (%s)"
+msgstr ""
+
+#: index.php:226
+#, php-format
+msgid "Premium fee for item (%s)"
+msgstr "ExPRESS fee for item (%s)"
+
+#: robokassa/success.php:26 robokassa/success.php:33 robokassa/success.php:37
+#: robokassa/success.php:41 robokassa/success.php:45 user/wallet.php:64
+msgid "Payment processed correctly"
+msgstr ""
+
+#: robokassa/success.php:49
+msgid ""
+"There was a problem processing your Payment. Please contact the "
+"administrators"
+msgstr ""
+
+#: user/after.php:13 user/makecolor.php:12 user/makepremium.php:15
+#: user/payperpublish.php:16 user/uptop.php:12
+msgid "Item's title"
+msgstr ""
+
+#: user/after.php:14 user/makecolor.php:14 user/makepremium.php:16
+#: user/payperpublish.php:17 user/uptop.php:14
+msgid "Item's description"
+msgstr ""
+
+#: user/after.php:18 user/menu.php:15
+msgid "Premium"
+msgstr "ExPRESS"
+
+#: user/after.php:19 user/menu.php:16
+msgid "20x views!"
+msgstr ""
+
+#: user/after.php:20 user/menu.php:17
+msgid ""
+"Premium status is when the ads are highlighted and shown on top of free ads "
+"in . This promotes more rapid sales. The duration of the option in days:"
+msgstr ""
+"<b>ExPRESS</b> – this status provides the publication of your ad on the home "
+"page. In addition, EXLUSIVELY duplicates the ad in the next issue of the "
+"mass Kiev newspaper \"Stolytsa\". Publication on the website and in the "
+"PRESS provides maximum ad performance.<br/> <b>Duration of the service:</b> "
+"7 days.<br/> <b>Service price:</b> 100&nbsp;UAH."
+
+#: user/after.php:21
+msgid "In order to make premium your ad , it's required to pay a fee"
+msgstr "In order to make ExPRESS your ad it's required to pay a fee"
+
+#: user/after.php:22 user/after.php:48 user/makecolor.php:19
+#: user/makepremium.php:20 user/payperpublish.php:21 user/uptop.php:19
+#, php-format
+msgid "The current fee for this category is: %.2f %s"
+msgstr "<b>The current fee for this category is:</b> %.2f %s"
+
+#: user/after.php:45 user/menu.php:22
+msgid "5x views!"
+msgstr ""
+
+#: user/after.php:46
+msgid ""
+"This option allows to attract the visitors attention on you ads. Background "
+"of your ad becomes highlighted. The duration of the option in days:"
+msgstr ""
+"<b>HighLIGHT</b> – this option visually highlights your ads, among others, "
+"and thus ATTRACTS the ATTENTION of the site users. Bright yellow color, "
+"according to the color psychology, contributes to successful sales. <br/> "
+"<b>Duration of the service:</b> 7 days.<br/> <b>Service price:</b> 10 UAH."
+
+#: user/after.php:47
+msgid "In order to Highlight your ad , it's required to pay a fee"
+msgstr ""
+
+#: user/after.php:70
+msgid "No, Thanks"
+msgstr ""
+
+#: user/makecolor.php:9
+msgid "Highlight Item"
+msgstr ""
+
+#: user/makecolor.php:18
+msgid ""
+"In order to Highlight your ad , it's required to pay a fee. The duration of "
+"the option in days:"
+msgstr ""
+"In order to Highlight your ad, it's required to pay a fee.<br/> <b>The "
+"duration of the option:</b> 7 days"
+
+#: user/makecolor.php:43 user/makecolor.php:53 user/makepremium.php:41
+#: user/makepremium.php:51 user/makepremium.php:60 user/payperpublish.php:41
+#: user/payperpublish.php:50 user/payperpublish.php:59 user/uptop.php:40
+#: user/uptop.php:50
+msgid "There was an error"
+msgstr ""
+
+#: user/makecolor.php:45
+msgid "The item is already a Highlight"
+msgstr ""
+
+#: user/makecolor.php:55 user/makepremium.php:62 user/payperpublish.php:61
+#: user/uptop.php:52
+msgid "The item doesn not exists"
+msgstr ""
+
+#: user/makepremium.php:12
+msgid "Make the ad premium"
+msgstr "Make the ad ExPRESS"
+
+#: user/makepremium.php:19
+msgid ""
+"In order to make premium your ad , it's required to pay a fee. The duration "
+"of the option in days:"
+msgstr ""
+"In order to make your ad ExPRESS it's required to pay a fee. <br/><b>The "
+"duration of the option:</b> 7 days"
+
+#: user/makepremium.php:43
+msgid "There's no need to pay the premium fee"
+msgstr ""
+
+#: user/makepremium.php:53
+msgid "The item is already a premium ad"
+msgstr "The item is already a ExPRESS ad"
+
+#: user/menu.php:14
+msgid "Robokassa & your listings"
+msgstr "Premium services"
+
+#: user/menu.php:18
+msgid "Move ad on top"
+msgstr "Raise to TOP"
+
+#: user/menu.php:19
+msgid "3x views!"
+msgstr ""
+
+#: user/menu.php:20
+msgid ""
+"This function moves you ad once on the top of the you category and the main "
+"page too."
+msgstr ""
+"<b>Raise to TOP</b> – this option moves your ad up in the list and provides "
+"the priority viewing. By placing the ad in the top, you get MUCH MORE VIEWS "
+"and successful business contacts! <br/><b>Duration of the service:</b> 7 "
+"days.<br/> <b>Service price:</b> 20 UAH."
+
+#: user/menu.php:23
+msgid ""
+"This option allows to attract the visitors attention on you ads. Background "
+"of your ad becomes highlighted"
+msgstr ""
+"<b>HighLIGHT</b> – this option visually highlights your ads, among others, "
+"and thus ATTRACTS the ATTENTION of the site users. Bright yellow color, in "
+"accordance with the psychology of color perception, contributes to "
+"successful sales.<br/> <b>Duration of the service:</b> 7 days.<br/> "
+"<b>Service price:</b> 10 UAH."
+
+#: user/menu.php:26
+msgid "You don't have any listing yet"
+msgstr ""
+
+#: user/menu.php:34
+msgid "Publication date"
+msgstr ""
+
+#: user/menu.php:35 user/pack.php:30
+msgid "Price"
+msgstr ""
+
+#: user/menu.php:40
+msgid "Paid!"
+msgstr ""
+
+#: user/menu.php:42
+msgid "Pay for this item"
+msgstr ""
+
+#: user/menu.php:53
+msgid "Already premium!"
+msgstr "Already  ExPRESS!"
+
+#: user/menu.php:67 user/uptop.php:9
+msgid "Move on Top"
+msgstr "Raise to TOP"
+
+#: user/menu.php:73
+msgid "Already highlight!"
+msgstr ""
+
+#: user/pack.php:17
+#, php-format
+msgid "Credit packs. Your current credit is %s"
+msgstr ""
+
+#: user/pack.php:19
+msgid "Your wallet is empty. Buy some credits."
+msgstr ""
+
+#: user/pack.php:29
+#, php-format
+msgid "Credit pack #%d"
+msgstr ""
+
+#: user/pack.php:33
+#, php-format
+msgid "Credit for %s%s at %s"
+msgstr ""
+
+#: user/pack.php:33
+msgid "Add funds"
+msgstr ""
+
+#: user/payperpublish.php:13
+msgid "Continue the publish process"
+msgstr ""
+
+#: user/payperpublish.php:20
+msgid ""
+"In order to make visible your ad to other users, it's required to pay a fee"
+msgstr ""
+
+#: user/payperpublish.php:26 user/payperpublish.php:28
+#: user/payperpublish.php:31
+#, php-format
+msgid "Publish fee for item %d"
+msgstr ""
+
+#: user/payperpublish.php:26 user/payperpublish.php:28
+#: user/payperpublish.php:31
+msgid "Publish item"
+msgstr ""
+
+#: user/payperpublish.php:43
+msgid "There's no need to pay the publish fee"
+msgstr ""
+
+#: user/payperpublish.php:52
+msgid "The publish fee is already paid"
+msgstr ""
+
+#: user/uptop.php:18
+msgid "In order move to top your ad, it's required to pay a fee"
+msgstr ""
+
+#: user/uptop.php:42
+msgid "There's no need to pay Move to Top"
+msgstr ""
+
+#: user/wallet.php:67
+msgid ""
+"There were some errors, please try again later or contact the administrators"
+msgstr ""
+
+#: robocassa/payinvoce.php:52
+msgid "Attention! Make sure that ad text does not exceed 250 characters"
+msgstr "Attention! Make sure that ad text does not exceed 250 characters (with spaces). The text will be automatically reduced if this limit is exceeded. More details on the conditions of ads publication in the newspaper "Stolitsa" <a href=\"#\">here здесь</a>. We remind you that only one photo will be published in the newspaper – the first one in the line presented on the website."
+
+
+#~ msgid "Поднять объявление"
+#~ msgstr "Move on Top"
+
+#~ msgid "Сделать премиум"
+#~ msgstr "Make Premium"

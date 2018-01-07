@@ -1,0 +1,46 @@
+{
+    "name": "madhouse/messenger",
+    "description": "Personal messaging plugin for Osclass, designed by Madhouse.",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "MADHOUSE",
+            "email": "contact.wearemadhouse@gmail.com"
+        }
+    ],
+    "config": {
+	   "vendor-dir": "vendor/composer_components"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://bitbucket.org/muchmuch/madhouse_utils.git"
+        },
+        {
+            "type": "git",
+            "url": "https://bitbucket.org/muchmuch/madhouse_autoloader.git"
+        }
+    ],
+    "require": {
+	   "madhouse/utils": "1.21.*",
+       "madhouse/autoloader": "1.00"
+    },
+    "scripts": {
+    	"post-install-cmd": [
+            "bower install"
+        ],
+        "post-update-cmd": [
+            "bower install"
+        ]
+    },
+    "autoload": {
+    	"psr-0": {
+    	    "Madhouse_Messenger_": "classes/"
+    	},
+    	"files": [
+    	    "helpers/hAdmin.php",
+    	    "helpers/hMMessenger.php",
+    	    "helpers/hThreads.php"
+        ]
+    }
+}

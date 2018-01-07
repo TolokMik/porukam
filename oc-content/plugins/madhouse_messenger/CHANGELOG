@@ -1,0 +1,284 @@
+1.50.0	/ Mars. 2016
+		Add administration pages for events, labels and status
+
+		[+] Admin can update events
+		[+] Admin can add, update and remove status
+		[+] Admin can add, update and remove labels
+		[+] Users can mark a conversation as unread
+			- Admin can enable or disable this functionnaity
+		[+] Users can block other users
+			- Admin can enable or disable this functionnaity
+			- Admin can be notified when a user block somebody
+			- Admin can see all blocked users in the admin
+			- Admin can unblock somebody for a user
+		[*] Update inbox and thread template
+			- Unread threads are now nicer
+			- Add actions to block and unblock users
+			- Add action to mark as unread a thread
+			- Update message template in thread view
+			- Add an alert when a user has blocked his interlocutor
+		[*] Organize setttings page
+		[!] Fix when sending auto-message on mark as spam or deleting an item
+		[!] Fix on Status::insertDescription()
+		[!] Fix messages that overflowing when too long
+		[+] Add clickable links
+			- Enable or disable clickable links in admin
+			- Add settings for clickable links
+		[+] Add some helpers to threads
+			- isGroup
+			- getOther
+			- getBlockedUsers
+
+1.40.3	/ Mars. 2016
+		Add setting to activate / deactivate message template
+
+		[+] Add setting enable_message_template
+		[!] Fix critical bug when sending message
+		[!] Add tutorial to contact-form.php
+
+1.40.2	/ Mars. 2016
+		Small fixes when a user respond to a thread
+
+		[+] Add help link to plugin list
+		[!] Using undefined function changeLabel when sending a message
+
+1.40.1	/ Feb. 2016
+		AJAX updater added for labels (1.40.0).
+
+		[+] New AJAX updater & update process:
+			- When updating, versions declare themselves as needing AJAX update
+			- AJAX updater process those versions and make the actions (through
+			  the AdminAjax controller).
+		[*] addLabel / removeLabel returns the thread (updated).
+		[!] Fix for labels in threads (mainly for strict mode).
+		[!] Admin: small fix when item does not exist anymore.
+		[!] Disable cache on labels after insert/update.
+
+1.40.0	/ Dec. 2015
+		Third public release. Gmail-like labels system & much much more.
+
+		[+] Gmail labels system
+			- Threads can be sorted with different labels (similar to folders),
+			  there's two labels: inbox and archive.
+			- 'archive' can then be used as a 'delete thread' feature.
+		[+] 'Template' feature.
+			- Lets you prefill the item contact form for user with his last
+			  message (that started a thread), avoiding copy-and-paste when
+			  contacting a bunch of items.
+			- It replaces the name by the name of the current item owner.
+			- Use mdh_messenger_message_template() to display it.
+		[+] Events have now an excerpt as well.
+			- Lets you have HTML in the event s_text and display a text summary
+			  in the inbox.
+			- To enable this, fill s_excerpt field in table
+			  oc_t_mmessenger_events_description. If empty, displays s_text like
+			  before.
+		[+] New email:
+			- 'email_mmessenger_reply_user' sent for each reply in a thread.
+			- 'email_mmessenger_contact_user' is now sent only on thread creation.
+		[+] New helpers:
+			- mdh_messenger_is_inbox_page()
+			- mdh_messenger_is_archive_page()
+			- mdh_message_is_from_viewer()
+			- mdh_messenger_thread_label_add_url()
+			- mdh_messenger_thread_label_remove_url()
+			- mdh_messenger_thread_archive_url()
+			- mdh_messenger_thread_unarchive_url()
+			- mdh_messenger_current_inbox_url()
+			- mdh_messenger_message_template()
+			- mdh_thread_title_default()
+			- mdh_has_thread_labels()
+			- mdh_thread_labels_count()
+			- mdh_thread_label()
+			- mdh_thread_label_id()
+			- mdh_thread_label_name()
+			- mdh_thread_label_title()
+			- mdh_thread_label_is_system()
+			- mdh_thread_in_label()
+		[+] New hooks:
+			- mdh_messenger_pre_contact
+			- mdh_messenger_contacted_again
+			- mdh_messenger_post_contact
+			- mdh_messenger_post_contact_first
+			- mdh_messenger_post_reply
+		[*] Flash message added on reply, to notify that message has been sent.
+		[*] Refactoring for DAO, simplifying queries on database and increasing
+			performance a bit.
+		[*] Two hooks receives the thread as parameters now:
+			- mdh_messenger_post_send
+			- mdh_messenger_thread_created
+		[*] Better escaping in messages:
+			- Correct characters escaping dealing with code, mainly for snippets
+			  in Osclass markets :)
+			- More logical / simple escaping between getText() and computeText()
+		[*] Refactoring and comments for controllers and helpers.
+		[!] Fix: correct redirection on reply.
+		[!] Fix: messages disappearing when status were deleted.
+		[!] Fix: Messages were sent to disabled users in a very very specific case.
+		[!] Fix: When retrieving messages, was making one extra request for each
+			message.
+
+1.33	/ Jun. 2015
+		Minor improvements
+
+		[+] CZ translation.
+
+1.32	/ Mar. 2015
+		Fix. for custom 'DB_TABLE_PREFIX'.
+
+1.31	/ Feb. 2015
+		Minor, bug fixes. Making it work better with other plugins by Madhouse.
+
+		[+] New direct link to Madhouse market profile in nav.
+		[*] Affix on sidenav in settings page.
+		[*] Composer updated for using:
+			- madhouse/utils-1.20
+			- madhouse/autoloader-1.00
+		[!] Fix for settings page (strict).
+			Checkboxes were triggering strict warnings.
+		[!] Support for Windows paths.
+
+1.30	/ Sept. 2014
+		Second public release. Big changes.
+
+		[+] Contact from a user profile is now possible.
+			The contact form handles both case (no item will be linked).
+		[+] New action 'broadcast' to send a message in all threads belonging to
+			a user or an item.
+			On item_delete_after, sends an auto-message to notify users that
+			contacted this item (if wanted @see preferences).
+		[+] New daily cron for sending reminders to users that have unread messages
+			every X days for Y days.
+		[+] Referer is set to redirect to messenger after login when trying to
+			access messenger without being logged in.
+		[+] Permalinks settings :
+			- Change the URL prefix to customize messenger URLs.
+			  ie. /messenger/inbox can become /messages/inbox or /m/inbox.
+			  That's up to you (base_url settings)
+		[+] When administrator flags a user as 'blocked', messenger blocks his
+			messages as well. Does the same when unblock.
+		[+] New helpers :
+			- mdh_thread_users()
+			- mdh_thread_user()
+			- mdh_thread_has_users()
+			- mdh_thread_user_id()
+			- mdh_thread_user_name()
+			- mdh_thread_user_url()
+			- mdh_thread_users_count()
+			- mdh_thread_item_category_id()
+			- mdh_message_id()
+			- mdh_status_url()
+			- mdh_status_text() becomes mdh_status_title()
+			- mdh_thread_status_text()
+		[+] Bulk actions on administration page to block/unblock selected messages.
+		[*] New design for administration pages using Twitter Bootstrap 3.
+		[*] Item is exported when a thread is exported so you can use item helpers.
+		[*] User (current logged in) is exported on inbox so you can use user helpers.
+		[*] New words in emails.
+		[*] The formatted date uses the one in Osclass settings.
+		[*] When a user gets blocked by an admin, Messenger marks all his messages
+			as spams.
+		[*] Events and status gets translated in the database
+			@see Madhouse_Utils_Models::extendData
+		[-] Madhouse_Messenger_Thread does not exist anymore.
+			The message are retrieved separately. Improves readability and perf.
+
+		---
+
+1.24 	/ May. 2014
+		Heavy performance improvements.
+		Ex. Loading the inbox was > 200 queries, but << 60 queries now.
+
+		[+] Uses now UsersManager.
+			Greatly improves performance retrieving users.
+			@see Madhouse Utils v1.16.
+		[*] Limit excessive queries when creating messages.
+			Thread objects are passed around to be used when retrieving messages without having to recreate it everytime.
+
+		---
+
+1.23 	/ Apr. 2014
+		Fix for HTML encoding of messages.
+
+		[!] Params::getParam() returns encoded text (security).
+			Putting its return into database is encoding characters like quotes in database. Madhouse_Messenger_Message handles the case.
+
+		---
+
+1.22	/ Mar. 2014
+		Upgrading for using Osclass 3.3+ routes features, new contact feature for admins and security improvements.
+
+		[+] Admin can contact a user through the 'users' page.
+		[+] New hooks :
+			- mdh_show_inbox
+			- mdh_show_thread
+			- mdh_thread_created
+		[*] Messenger is using routes
+			Osclass 3.3 introduced them to manage custom plugin pages and URL rewriting.
+		[*] Security checks everywhere !
+			- Exception are thrown and handled by controllers.
+		[*] Title of pages is set (<title />).
+		[!] A spam/blocked item can not be contacted anymore.
+
+		---
+
+1.21 	/ Jan. 2014
+		Minor fix for email notifications.
+
+		[!] The settings for 'enable_notifications' was not working.
+
+		---
+
+1.20 	/ Dec. 2013
+		First public release.
+
+		[+] New helpers for views (like Osclass).
+			Mustache can still be used but Osclass users are accustomed to helpers.
+		[+] New default theme (integrated with Bender).
+			This is only default and can be customized in the current theme. @see documentation on customization.
+		[+] New admin pages:
+			- Settings, many settings for the plugin as preferences.
+		[*] Status on thread are not mandatory anymore.
+			@see settings for status.
+		[*] Madhouse_Messenger_Message::getContent() is now
+			Madhouse_Messenger_Message::getText().
+		[!] Fixes for serializable classes (JSON).
+		[!] Fixes for pagination.
+
+		---
+
+1.11	/ Dec. 2013
+		Handling of deleted users and some minor fixes.
+
+		[*] Handling of deleted users:
+			- There's no foreign key between messages and users to be able to keep the messages if someone deletes his account.
+			- A mention is added : 'Dead User' and nobody can send anything to a dead user.
+
+		[!] Fixes count of unread messages on front.
+		[!] Fix for the 'more' messages feature on front.
+
+		---
+
+1.10	/ Nov. 2013
+		Maturity version.
+
+		[+] New administration pages:
+			- Dashboard, various stats.
+			- Manage Messages, like Manage Items page with search (autocomplete and blocking ability).
+
+		[!] Fixes for PHP 5.3 about closures and $this.
+
+		---
+
+1.01	/ Oct. 2013
+		Minor version mainly refactoring.
+
+		[*] Project is refactored to get a structure like Osclass.
+			@see Madhouse HelloWorld.
+
+		---
+
+1.00	/ Oct. 2013
+		First release.
+
+		---

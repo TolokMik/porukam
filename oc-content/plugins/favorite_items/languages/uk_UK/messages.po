@@ -1,0 +1,350 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Favorite Items Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-10-11 13:10+0200\n"
+"PO-Revision-Date: 2016-04-23 23:02+0300\n"
+"Last-Translator: Miso <miso546@azet.sk>\n"
+"Language-Team: MB Themes <info@mb-themes.com>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/configure.php:11
+msgid ""
+"Variables has been successfully refreshed. Missing variables were created."
+msgstr ""
+"Переменные были успешно обновлены. были созданы Недостающие переменные."
+
+#: admin/configure.php:52
+msgid "Settings for Favorite Items Plugin saved."
+msgstr "Налаштування плагіну Вибране збережені."
+
+#: admin/configure.php:70
+msgid "Global Settings"
+msgstr "Глобальні налаштування"
+
+#: admin/configure.php:72
+msgid "List settings"
+msgstr "Установки списку"
+
+#: admin/configure.php:76
+msgid "Enable quick messages"
+msgstr ""
+
+#: admin/configure.php:80
+msgid "Maximum listings in favorite list:"
+msgstr ""
+
+#: admin/configure.php:84
+msgid "Listings shown in 1 page:"
+msgstr ""
+
+#: admin/configure.php:92
+msgid "Make Favorite button"
+msgstr ""
+
+#: admin/configure.php:93
+msgid ""
+"This code must be entere inside item loop. That means it needs to be placed "
+"inside loop starting with while(osc_has_items()){ or while(osc_has_items())"
+"{ or while(osc_has_custom_items()){"
+msgstr ""
+
+#: admin/configure.php:99
+msgid ""
+"Note that you can use this function also outside item loop, but in this case "
+"you need to enter (optional) parameter with ID of listing. So i.e. if you "
+"want to make button for listing id = 95, you will call this function like "
+"fi_make_favorite(95)"
+msgstr ""
+
+#: admin/configure.php:105
+msgid "Show items in current list"
+msgstr ""
+
+#: admin/configure.php:106
+msgid ""
+"Using this code you can show listings that are in current user favorite "
+"list. You can enter this code anywhere."
+msgstr ""
+
+#: admin/configure.php:115
+msgid "Show block with most favorited listings"
+msgstr ""
+
+#: admin/configure.php:116
+msgid ""
+"Using this code you can show list of most favorited listings on your site. "
+"You can enter this code anywhere."
+msgstr ""
+
+#: admin/configure.php:121
+msgid ""
+"By default, 5 listings is shown. You can enter (optional) parameter to "
+"increase or reduce this number. So i.e. if you want to show 10 most "
+"favorited items, you will call this function like "
+"fi_most_favorited_items(10)."
+msgstr ""
+
+#: admin/configure.php:126
+msgid "Save settings"
+msgstr ""
+
+#: admin/configure.php:132
+msgid ""
+"If enabled, quick informal messages will be shown to user in right top "
+"corner when adding item to favorite list or removing listing from list."
+msgstr ""
+
+#: admin/configure.php:133
+msgid ""
+"Set maximum count of listings that can be added into 1 favorite list. If "
+"user reach this quota and will try to add next listing, this user will be "
+"informed that there is limit that has been reached."
+msgstr ""
+
+#: admin/configure.php:134
+msgid ""
+"Set how many listings in list are shown on 1 page in user menu. I.e. if you "
+"set this value to 8 and there is 24 listings in selected list, user will be "
+"able to browse this listings on 3 pages (pagination)."
+msgstr ""
+
+#: admin/configure.php:135
+msgid ""
+"In list of most favorited listings, those items are shown in descending "
+"order by count how many people has favorited that listing. Note that "
+"listings, that are favorited by user, that is also owner of those listings, "
+"are not counted."
+msgstr ""
+
+#: admin/configure.php:136
+msgid ""
+"If you have any problem with plugin, please before contacting us check if "
+"there are no javascript errors on your site caused by other plugins or theme "
+"itself."
+msgstr ""
+
+#: admin/configure.php:143
+msgid "Version"
+msgstr ""
+
+#: admin/configure.php:143
+msgid "Author"
+msgstr ""
+
+#: ajax.php:27
+msgid "Favorite List"
+msgstr ""
+
+#: ajax.php:32 ajax.php:46 functions.php:48
+msgid "Favorited"
+msgstr "Вибрано"
+
+#: ajax.php:33 ajax.php:47 ajax.php:57
+msgid "Listing"
+msgstr "Оголошення"
+
+#: ajax.php:33 ajax.php:47
+msgid "has been marked as your favorite"
+msgstr "помічено як вибране"
+
+#: ajax.php:50
+msgid ""
+"Your favorite list already contains maximum allowed listings. You can have "
+"maximum"
+msgstr ""
+
+#: ajax.php:50 user/user_menu_lists.php:117
+msgid "listing"
+msgstr "оголошення"
+
+#: ajax.php:50 user/user_menu_lists.php:117
+msgid "listings"
+msgstr "оголошення"
+
+#: ajax.php:50
+msgid "in each favorite list."
+msgstr ""
+
+#: ajax.php:56 functions.php:51
+msgid "Make favorite"
+msgstr "Позначити як вибране"
+
+#: ajax.php:57
+msgid "is not your favorite anymore"
+msgstr "більше не є вибраним"
+
+#: ajax.php:101
+msgid "Listing has been removed from your favorite list"
+msgstr "Об'яву  було вилучено зі списку вибраного"
+
+#: functions.php:156
+msgid "Check with seller"
+msgstr "Обсудити з продавцем"
+
+#: functions.php:158
+msgid "Free"
+msgstr "Бескоштовно"
+
+#: index.php:187 user/list_items.php:5 user/most_favorited_items.php:7
+#: user/user_menu_items.php:5
+msgid "You do not have any favorite listings"
+msgstr "У Вас нічого немає у вибраному"
+
+#: index.php:195
+msgid "Favorite items"
+msgstr "Вибране"
+
+#: index.php:213 index.php:227
+msgid "global settings"
+msgstr "глобальні налаштування"
+
+#: index.php:214
+msgid ""
+"This action set all settings to default. In case you have upgraded from "
+"lower version, it will add also missing variables so reinstall is not "
+"required"
+msgstr ""
+
+#: index.php:214
+msgid ""
+"This action set all settings to default. In case you have upgraded from "
+"lower version, it will add also missing variables so reinstall is not "
+"required. Are you sure you want to continue?"
+msgstr ""
+
+#: user/list_items.php:2
+msgid "Favorited listings"
+msgstr "Вибрані об'яви"
+
+#: user/list_items.php:37 user/user_menu_items.php:37
+msgid "Remove from list"
+msgstr "Вилучити зі списку"
+
+#: user/most_favorited_items.php:4 user/user_menu_items.php:2
+msgid "Favorited listings in list"
+msgstr "Список  вибраних об'яв"
+
+#: user/user_menu_lists.php:8
+msgid "List name cannot be empty. Please enter name."
+msgstr "Будь ласка,назвіть список"
+
+#: user/user_menu_lists.php:16
+msgid "List has been updated"
+msgstr "Список оновлено"
+
+#: user/user_menu_lists.php:22
+msgid ""
+"New list has been created and set as active, because you do not have any "
+"active favorite list"
+msgstr ""
+"Список створено та активовано, поскільки інших активованых списків немає"
+
+#: user/user_menu_lists.php:25
+msgid "New list has been created"
+msgstr "Новий список створено"
+
+#: user/user_menu_lists.php:52
+msgid "Favorite list"
+msgstr "Список уподобань"
+
+#: user/user_menu_lists.php:52
+msgid "has been successfully removed"
+msgstr "успішно видалено"
+
+#: user/user_menu_lists.php:63
+msgid "List"
+msgstr "Список"
+
+#: user/user_menu_lists.php:63
+msgid "has been set to your current favorite list"
+msgstr "установлено как поточний"
+
+#: user/user_menu_lists.php:70
+msgid "Add new favorite lists"
+msgstr "Добавити новий список вибраного"
+
+#: user/user_menu_lists.php:78
+msgid "Enter name of new favorite list"
+msgstr "Введіть назву нового списку "
+
+#: user/user_menu_lists.php:82
+msgid "set as active"
+msgstr "активувати"
+
+#: user/user_menu_lists.php:87
+msgid "notify me"
+msgstr "сповіщати мене"
+
+#: user/user_menu_lists.php:90
+msgid "Submit"
+msgstr "Відправити"
+
+#: user/user_menu_lists.php:95
+msgid "Your favorite lists"
+msgstr "Ваші списки вибраного"
+
+#: user/user_menu_lists.php:101
+msgid "You did not created any favorite list"
+msgstr "Ви не створили ще жодного списку вибраного"
+
+#: user/user_menu_lists.php:104
+msgid "List Name"
+msgstr "Назва списку"
+
+#: user/user_menu_lists.php:105
+msgid "# Items"
+msgstr "Об'яв"
+
+#: user/user_menu_lists.php:106
+msgid "Current"
+msgstr "Поточний"
+
+#: user/user_menu_lists.php:107
+msgid "Notify"
+msgstr "Сповіщати"
+
+#: user/user_menu_lists.php:108
+msgid "Remove"
+msgstr "Видалити"
+
+#: user/user_menu_lists.php:116
+msgid "edit"
+msgstr "редагувати"
+
+#: user/user_menu_lists.php:120
+msgid "Are you sure you want to continue? This action cannot be undone."
+msgstr "Ви справді хочете продовжити? Операцію не можна буде відмінити."
+
+#: user/user_menu_lists.php:126
+msgid ""
+"Every user can have just 1 favorite list active/current. It only means, that "
+"if you add item to favorite list, it is added to active one. You can set "
+"favorite list to be active if you are going to work with it (add/remove "
+"items from it)."
+msgstr ""
+"Майте на увазі, що користувач може мати лише один активний/поточний список "
+"вибраного. Помічаючи новий елемент як вибраний, Ви додаєте його в  активний/"
+"поточний  список.  Обов'язково відмітьте список,  з яким збираєтесь "
+"працювати – додавати/вилучати елементи!"
+
+#: user/user_menu_lists.php:127
+msgid ""
+"If notifications are marked, you will be notified by email in case: Price on "
+"listing you has favorited has changed or Listing you favorited has been "
+"removed. It does not matter if favorite list is current/active or not."
+msgstr ""
+"Якщо включено функцію «сповіщення», Ви будете повідомлені по електронній "
+"пошті в разі, якщо ціна в оголошенні, яке Ви додали в вибране  зміниться, "
+"або оголошення буде видалено. Не має значення, чи список вибраного  "
+"поточний / активний чи ні."

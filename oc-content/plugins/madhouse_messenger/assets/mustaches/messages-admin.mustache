@@ -1,0 +1,78 @@
+{{#data}}
+    <tr class="{{#is_blocked}}status-inactive{{/is_blocked}}
+               {{^is_blocked}}status-active{{/is_blocked}}">
+        <td class="col-status-border"></td>
+        <td class="col-status">
+            {{#is_blocked}}
+                {{texts.blocked}}
+            {{/is_blocked}}
+            {{^is_blocked}}
+                {{texts.active}}
+            {{/is_blocked}}
+        </td>
+        <td class="col-bulkactions">
+            <input type="checkbox" name="id[]" value="{{id}}" />
+            <div class="actions">
+                <ul>
+                    <li><a href="{{admin_urls.messagesByThread}}">{{texts.showThread}}</a></li>
+                    <li><a href="{{admin_urls.messagesByItem}}">{{texts.showMessagesOfItem}} {{item.id}}</a></li>
+                    <li class="show-more">
+                        <a href="#" class="show-more-trigger">{{texts.showMore}}</a>
+                        <ul>
+                            <li><a href="{{admin_urls.messagesByUser}}">{{texts.showMessagesOf}} {{sender.name}}</a></li>
+                            <li>
+                                {{#is_blocked}}
+                                    <a href="{{admin_urls.unblock}}">
+                                        {{texts.unblock}}
+                                    </a>
+                                {{/is_blocked}}
+                                {{^is_blocked}}
+                                    <a href="{{admin_urls.block}}">
+                                        {{texts.block}}
+                                    </a>
+                                {{/is_blocked}}
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </td>
+        <td>
+            <strong>{{texts.from}}:</strong>
+            <br />
+            <a href="{{sender.url}}" target="_blank">{{sender.name}}&nbsp;(@{{sender.username}})</a>
+            <br />
+            <strong>{{texts.to}}:</strong>
+            <br />
+            {{#recipients}}
+                <a href="{{url}}" target="_blank">{{name}}&nbsp;(@{{username}})</a><br />
+            {{/recipients}}
+        </td>
+        <td>{{{text}}}</td>
+        <td>
+            {{#thread}}
+                {{#has_item}}
+                    <a href="{{item.s_url}}" target="_blank">{{item.s_title}}</a><br />
+                    {{#item.b_spam}}
+                        <span class="label label-danger">{{texts.spam}}</span>
+                    {{/item.b_spam}}
+                    {{^item.b_enabled}}
+                        <span class="label label-danger">{{texts.blocked}}</span>
+                    {{/item.b_enabled}}
+                    {{^item.b_active}}
+                        <span class="label label-danger">{{texts.disabled}}</span>
+                    {{/item.b_active}}
+                {{/has_item}}
+                {{#had_item}}
+                    <span class="text-muted">{{texts.deleted_item}}</span>
+                {{/had_item}}
+                {{^has_item}}
+                    {{^had_item}}
+                        -
+                    {{/had_item}}
+                {{/has_item}}
+            {{/thread}}
+        </td>
+        <td>{{sent_date.formatted}}</td>
+    </tr>
+{{/data}}

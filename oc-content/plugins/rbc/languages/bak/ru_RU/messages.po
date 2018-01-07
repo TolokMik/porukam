@@ -1,0 +1,667 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Osclass Robokassa\n"
+"POT-Creation-Date: 2016-02-05 19:15+0300\n"
+"PO-Revision-Date: 2017-10-14 23:56+0300\n"
+"Last-Translator: Dis <disruptive555@gmail.com>\n"
+"Language-Team: support@osclass-pro.com\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+
+#: admin/bonus.php:18
+#, php-format
+msgid "Add bonus to user (%s)"
+msgstr "Добавить бонус для пользователя (%s)"
+
+#: admin/bonus.php:28
+msgid "Congratulations, the Bonus is now added"
+msgstr "Бонус добавлен"
+
+#: admin/bonus.php:33 admin/bonus.php:48
+msgid "Add Bonus"
+msgstr "Добавить бонус"
+
+#: admin/bonus.php:42 admin/log.php:21
+msgid "User e-mail"
+msgstr "E-mail пользователя"
+
+#: admin/bonus.php:53
+msgid "Add"
+msgstr "Добавить"
+
+#: admin/conf.php:33 admin/conf_prices.php:19
+msgid "Congratulations, the plugin is now configured"
+msgstr "Плагин настроен"
+
+#: admin/conf.php:44
+msgid "Follow us"
+msgstr "Мы в соцсетях"
+
+#: admin/conf.php:54 admin/conf.php:61
+msgid "Robakassa settings"
+msgstr "Robakassa настройки"
+
+#: admin/conf.php:55 admin/conf_prices.php:63
+msgid "Category prices"
+msgstr "Цены Категорий"
+
+#: admin/conf.php:56
+msgid "Robakassa log"
+msgstr "Robakassa лог"
+
+#: admin/conf.php:57
+msgid "Bonus"
+msgstr "Бонус"
+
+#: admin/conf.php:58 admin/help.php:3
+msgid "Help"
+msgstr "Помощь"
+
+#: admin/conf.php:72
+msgid "Premium ads"
+msgstr "Объявления ЭксПРЕСС"
+
+#: admin/conf.php:77
+msgid "Allow premium ads"
+msgstr "Использовать опцию"
+
+#: admin/conf.php:83
+msgid "Default premium cost"
+msgstr "Цена ЭксПРЕСС по умолчанию"
+
+#: admin/conf.php:89
+msgid "Premium days"
+msgstr "ЭксПРЕСС- срок действия в днях"
+
+#: admin/conf.php:95
+msgid "Publish fee"
+msgstr "Оплата публикации"
+
+#: admin/conf.php:100
+msgid "Pay per post ads"
+msgstr "Использовать платную публикацию"
+
+#: admin/conf.php:106
+msgid "Default publish cost"
+msgstr "Цена публикации по умолчанию"
+
+#: admin/conf.php:110
+msgid "Move to Top"
+msgstr "Поднятие в топ"
+
+#: admin/conf.php:115
+msgid "Allow move to top"
+msgstr "Использовать Поднятие в топ"
+
+#: admin/conf.php:123
+msgid "Default move to top"
+msgstr "Цена поднятия в топ по умолчанию"
+
+#: admin/conf.php:129 index.php:103 user/after.php:44 user/after.php:54 user/after.php:57 user/after.php:61 user/makecolor.php:25 user/makecolor.php:28 user/makecolor.php:32 user/menu.php:21 user/menu.php:77
+msgid "Highlight"
+msgstr "Выделить ЦВЕТОМ"
+
+#: admin/conf.php:134
+msgid "Allow highlighting"
+msgstr "Использовать выделение цветом"
+
+#: admin/conf.php:140
+msgid "Default highlighting"
+msgstr "Цена выделения цветом по умолчанию"
+
+#: admin/conf.php:146
+msgid "Highlighting days"
+msgstr "Выделения цветом - срок действия в днях"
+
+#: admin/conf.php:151
+msgid "Insert buttons for services in item page"
+msgstr "Вставить кнопки в страницы объявлений"
+
+#: admin/conf.php:153
+msgid "Item Premium Button"
+msgstr "ЭксПРЕСС"
+
+#: admin/conf.php:158 admin/conf.php:169 admin/conf.php:180
+msgid "Insert button"
+msgstr "Вставить кнопку"
+
+#: admin/conf.php:164
+msgid "Item Top Button"
+msgstr "Поднять в топ"
+
+#: admin/conf.php:175
+msgid "Item Highlited Button"
+msgstr "Выделить цветом"
+
+#: admin/conf.php:185
+msgid "After the published ad redirect to page immediately offered to pay Premium and Highlighting"
+msgstr "После публикации объявления предлагать пользователю сразу купить ЭксПРЕСС и Выделение цветом"
+
+#: admin/conf.php:187
+msgid "After publish"
+msgstr "После публикации"
+
+#: admin/conf.php:192
+msgid "Allow after publish"
+msgstr "Использовать После публикации"
+
+#: admin/conf.php:197
+msgid "Allow after work only if Pay per post disable"
+msgstr ""
+"Функция  - После публикации, если она включена пользователь сразу после заполнения объявления перемещается на страницу, где ему предлагается купить Премиум или Выделение цветом.  Функция Работает только если не включена Оплата публикации. Для тестирования функции, админ должен выйти из админки доски и под пользователем из публичной части доски опубликовать "
+"объявление. "
+
+#: admin/conf.php:200
+msgid "Currency"
+msgstr "Валюта"
+
+#: admin/conf.php:212
+msgid "You could specify up to 3 'packs' that users can buy, so they don't need to pay each time they publish an ad. The credit from the pack will be stored for later uses."
+msgstr "В полях ниже, Вы можете вписать три суммы, на которые пользователь может пополнить свой кошелек на сайте. Если Вы не заполните ни одной суммы, кошелек будет не виден пользователю!"
+
+#: admin/conf.php:216 admin/conf.php:220 admin/conf.php:224
+#, php-format
+msgid "Price of pack #%d"
+msgstr "Пополнение кошелька #%d"
+
+#: admin/conf.php:229
+msgid "Robokassa account settings."
+msgstr "Данные из аккаунта Robokassa"
+
+#: admin/conf.php:233
+msgid "ID shop"
+msgstr "ID магазина"
+
+#: admin/conf.php:240
+msgid "Password1"
+msgstr "Пароль1"
+
+#: admin/conf.php:247
+msgid "Password2"
+msgstr "Пароль2"
+
+#: admin/conf.php:257
+msgid "Save changes"
+msgstr "Сохранить"
+
+#: admin/conf_prices.php:74
+msgid "Category Name"
+msgstr "Категория"
+
+#: admin/conf_prices.php:75
+#, php-format
+msgid "Premium fee (%s)"
+msgstr "ЭксПРЕСС (%s)"
+
+#: admin/conf_prices.php:76
+#, php-format
+msgid "Move to top(%s)"
+msgstr "Поднять в топ (%s)"
+
+#: admin/conf_prices.php:77
+#, php-format
+msgid "Highlighting (%s)"
+msgstr "Выделение цветом  (%s)"
+
+#: admin/conf_prices.php:78
+#, php-format
+msgid "Publish fee (%s)"
+msgstr "Оплата публикации (%s)"
+
+#: admin/conf_prices.php:82
+msgid "Update"
+msgstr "Обновить"
+
+#: admin/help.php:6
+msgid "Tips For Administrators"
+msgstr "Подсказка для администратора"
+
+#: admin/help.php:8
+msgid "Metod - POST. Signature - MD5"
+msgstr "Наcтройки в акаунте Робокассы.  Метод отправки данных - POST, алгоритм расчета хеша - MD5."
+
+#: admin/help.php:18
+msgid "After publish option"
+msgstr "После  публикации"
+
+#: admin/help.php:20
+msgid "What is this function?If this feature is enabled. User after the published ad redirect to page immediately offered to pay Premium and Highlighting."
+msgstr "После публикации объявления  предлагать пользователю сразу купить ЭксПРЕСС или Выделение цветом"
+
+#: admin/help.php:22
+msgid "This allows you to get more payments. Bottom of the After page there is a button - no thanks.The user can press it and nothing pay at once - publish a classified. Function work only if Publish fee is disabled!"
+msgstr "Эта функция позволит получать больше платежей. Сразу после публикации юзер будет направлен на страницу с предложением купить премиум или выделение цветом. Функция работает только если отключена Платная публикация  объявлений. Для тестирования выйдите из адимнки."
+
+#: admin/help.php:24
+msgid "If you test the plugin and publish listings from Front-end, you must logout from  admin part. Otherwise you will not see After publish option or Publish option."
+msgstr "Если Вы тестируете функции Платная публикация или После публикации - выйдите из админки, иначе Вы не увидите этих опций."
+
+#: admin/help.php:28
+msgid "Setup highlighting"
+msgstr "Выделение цветом"
+
+#: admin/help.php:30
+msgid "Need small modifictions of theme files. Need add 2 id with functions in search files.  In themes usualy this is search-list.php and search-gallery.php or loop-single.php, loop-single-premium.php"
+msgstr "Для настройки опции Выделение цветом нужны модификации в файлах Вашего шаблона. Это файлы отвечающие за вывод объявлений в поиске. Обычно это  -search-list.php и search-gallery.php, или loop-single.php и loop-single-premium.php"
+
+#: admin/help.php:32
+msgid "For premium items id=\"&lt;?php if(function_exists('rbc_premium_get_class_color')){echo rbc_premium_get_class_color(osc_premium_id());}?&gt;\" ."
+msgstr "Для ЭксПРЕСС объявлений id=\"&lt;?php if(function_exists('rbc_premium_get_class_color')){echo rbc_premium_get_class_color(osc_premium_id());}?&gt;\" ."
+
+#: admin/help.php:34
+msgid "For items id=\"&lt;?php if(function_exists('rbc_get_class_color')){echo rbc_get_class_color(osc_item_id());}?&gt;\""
+msgstr "Для обычных объявлений id=\"&lt;?php if(function_exists('rbc_get_class_color')){echo rbc_get_class_color(osc_item_id());}?&gt;\""
+
+#: admin/help.php:36
+msgid "Example, the template Bender:"
+msgstr "Пример на шаблоне Bender:"
+
+#: admin/help.php:38
+msgid "File loop-single.php - 2-line :"
+msgstr "Файл loop-single.php - 2-линия :"
+
+#: admin/help.php:40
+msgid "&lt;li class = \"listing-card &lt;?php echo $class; if(osc_item_is_premium()){echo'premium';}?&gt;\" id=\"&lt;?php if(function_exists('rbc_get_class_color')){echo rbc_get_class_color(osc_item_id());}?&gt;\"&gt;"
+msgstr ""
+
+#: admin/help.php:42
+msgid "File loop-single-premium.php :"
+msgstr "Файл loop-single-premium.php :"
+
+#: admin/help.php:44
+msgid "&lt;li class = \"listing-card &lt;?php echo $class; if(osc_item_is_premium()){echo'premium';}?&gt;\" id=\"&lt;?php if(function_exists('rbc_premium_get_class_color')){echo rbc_premium_get_class_color(osc_premium_id());}?&gt;\"&gt;"
+msgstr ""
+
+#: admin/help.php:46
+msgid "and add the main.css #colorized{background:#F0E68C!important;} . Color of course you can change as you need."
+msgstr "добавьте в main.css цвет #colorized{background:#F0E68C!important;} . Цвет Вы можете изменить на любой другой."
+
+#: admin/help.php:49
+msgid "Insert buttons in item page style"
+msgstr "Кнопки на страницах объявлений"
+
+#: admin/help.php:51
+msgid "Maybe you not like the style of buttons"
+msgstr "Возможно Вам не нравиться стиль кнопок"
+
+#: admin/help.php:53
+msgid "You can change style of buttons in you theme css file. Buttons have class .rbc"
+msgstr "Вы можете его изменить. Кнопки имеют класс .rbc"
+
+#: admin/help.php:55
+msgid "Example, you can insert in you CSS style file code: .rbc{display: inline-block;float:left;width:auto;}"
+msgstr "Пример, Вы можете добавить код в Ваш файл стилей:  .rbc{display: inline-block;float:left;width:auto;}"
+
+#: admin/log.php:12
+msgid "Robokassa log"
+msgstr "Robakassa лог"
+
+#: admin/log.php:17
+msgid "ID"
+msgstr ""
+
+#: admin/log.php:18
+msgid "Date"
+msgstr "Дата "
+
+#: admin/log.php:19
+msgid "Description"
+msgstr "Описание"
+
+#: admin/log.php:20
+msgid "Amount"
+msgstr "Сумма"
+
+#: admin/log.php:22
+msgid "ItemID"
+msgstr "ID объявления"
+
+#: admin/log.php:23
+msgid "Source"
+msgstr "Источник"
+
+#: admin/log.php:24
+msgid "Product type"
+msgstr "Тип услуги"
+
+#: functions.php:124
+msgid "Pay with your credit"
+msgstr "Оплатить с кошелька"
+
+#: index.php:39
+msgid "Robokassa options"
+msgstr "Robokassa опции"
+
+#: index.php:72
+msgid "Listings payment status"
+msgstr "Премиум услуги"
+
+#: index.php:74
+msgid "Buy credit for Premium services"
+msgstr "Пополнить кошелек"
+
+#: index.php:88 user/after.php:27 user/after.php:29 user/after.php:32 user/makepremium.php:25 user/makepremium.php:28 user/makepremium.php:31
+#, php-format
+msgid "Premium fee for item %d"
+msgstr "ЭксПРЕСС для объявления %d"
+
+#: index.php:88 user/after.php:27 user/after.php:29 user/after.php:32 user/makepremium.php:25 user/makepremium.php:28 user/makepremium.php:31 user/menu.php:59
+msgid "Make Premium"
+msgstr "ЭксПРЕСС"
+
+#: index.php:103 user/after.php:54 user/after.php:57 user/after.php:61 user/makecolor.php:25 user/makecolor.php:28 user/makecolor.php:32
+#, php-format
+msgid "Highlight fee for item %d"
+msgstr "Выделение цветом объявления %d"
+
+#: index.php:118 user/uptop.php:25 user/uptop.php:27 user/uptop.php:30
+#, php-format
+msgid "Move to Top for item %d"
+msgstr "Поднятие объявления  %d в топ"
+
+#: index.php:118 user/uptop.php:25 user/uptop.php:27 user/uptop.php:30
+msgid "Move to TOP"
+msgstr "Поднять в ТОП"
+
+#: index.php:210
+#, php-format
+msgid "Add wallet to user (%s)"
+msgstr "Пополнение кошелька  (%s)"
+
+#: index.php:214
+#, php-format
+msgid "Publish fee for item (%s)"
+msgstr "Оплата публикации (%s)"
+
+#: index.php:218
+#, php-format
+msgid "Highlight fee for item (%s)"
+msgstr "Выделение цветом объявления (%s)"
+
+#: index.php:222
+#, php-format
+msgid "Move to Top fee for item (%s)"
+msgstr "Поднятие объявления в топ (%s)"
+
+#: index.php:226
+#, php-format
+msgid "Premium fee for item (%s)"
+msgstr "ЭксПРЕСС для объявления (%s)"
+
+#: robokassa/success.php:26 robokassa/success.php:33 robokassa/success.php:37 robokassa/success.php:41 robokassa/success.php:45 user/wallet.php:64
+msgid "Payment processed correctly"
+msgstr "Оплата успешно завершена"
+
+#: robokassa/success.php:49
+msgid "There was a problem processing your Payment. Please contact the administrators"
+msgstr "Ваш платеж не завершен. Свяжитесь с администрацией"
+
+#: user/after.php:13 user/makecolor.php:12 user/makepremium.php:15 user/payperpublish.php:16 user/uptop.php:12
+msgid "Item's title"
+msgstr "Заголовок"
+
+#: user/after.php:14 user/makecolor.php:14 user/makepremium.php:16 user/payperpublish.php:17 user/uptop.php:14
+msgid "Item's description"
+msgstr "Описание"
+
+#: user/after.php:18 user/menu.php:15
+msgid "Premium"
+msgstr "ЭксПРЕСС"
+
+#: user/after.php:19 user/menu.php:16
+msgid "20x views!"
+msgstr "20x просмотров!"
+
+#: user/after.php:20 user/menu.php:17
+msgid "Premium status is when the ads are highlighted and shown on top of free ads in . This promotes more rapid sales. The duration of the option in days:"
+msgstr "<b>ЭксПРЕСС</b> – этот статус обеспечивает публикацию  Вашего объявления на главной странице сайта. Кроме того, ЭКСКЛЮЗИВНО  дублирует объявление в ближайшем выпуске массовой киевской газеты «Столица». Публикация на сайте и в ПРЕССЕ обеспечивает максимальную эффективность объявления. <br/><b>Срок действия услуги:</b> 7 дней. <br/><b>Цена услуги:</b> 100 ГРН."
+
+#: user/after.php:21
+msgid "In order to make premium your ad , it's required to pay a fee"
+msgstr "Чтобы Ваше объявление стало ЭксПРЕСС , необходимо заплатить"
+
+#: user/after.php:22 user/after.php:48 user/makecolor.php:19 user/makepremium.php:20 user/payperpublish.php:21 user/uptop.php:19
+#, php-format
+msgid "The current fee for this category is: %.2f %s"
+msgstr "<b>Цена для данной категории:</b> %.2f %s"
+
+#: user/after.php:45 user/menu.php:22
+msgid "5x views!"
+msgstr "5х просмотров!"
+
+#: user/after.php:46
+msgid "This option allows to attract the visitors attention on you ads. Background of your ad becomes highlighted. The duration of the option in days:"
+msgstr "<b>Выделение ЦВЕТОМ</b> – эта опция визуально выделяет Ваше объявление среди прочих, и за счет этого ПРИВЛЕКАЕТ к нему дополнительное ВНИМАНИЕ пользователей сайта. Яркий желтый цвет, в соответствии с психологией цвета, способствует успешным продажам.<br/> <b>Срок действия услуги:</b> 7 дней. <br/><b>Цена услуги:</b> 10 ГРН."
+
+#: user/after.php:47
+msgid "In order to Highlight your ad , it's required to pay a fee"
+msgstr "Для выделения цветом Вашего объявления, необходимо заплатить"
+
+#: user/after.php:70
+msgid "No, Thanks"
+msgstr "Нет, спасибо."
+
+#: user/makecolor.php:9
+msgid "Highlight Item"
+msgstr "Выделить цветом"
+
+#: user/makecolor.php:18
+msgid "In order to Highlight your ad , it's required to pay a fee. The duration of the option in days:"
+msgstr "Для того, чтобы выделить объявление цветом необходимо заплатить. <br/><b>Срок действия услуги:</b> 7 дней"
+
+#: user/makecolor.php:43 user/makecolor.php:53 user/makepremium.php:41 user/makepremium.php:51 user/makepremium.php:60 user/payperpublish.php:41 user/payperpublish.php:50 user/payperpublish.php:59 user/uptop.php:40 user/uptop.php:50
+msgid "There was an error"
+msgstr "Ошибка"
+
+#: user/makecolor.php:45
+msgid "The item is already a Highlight"
+msgstr "Объявление уже выделено цветом"
+
+#: user/makecolor.php:55 user/makepremium.php:62 user/payperpublish.php:61 user/uptop.php:52
+msgid "The item doesn not exists"
+msgstr "Нет такого объявления"
+
+#: user/makepremium.php:12
+msgid "Make the ad premium"
+msgstr "ЭксПРЕСС"
+
+#: user/makepremium.php:19
+msgid "In order to make premium your ad , it's required to pay a fee. The duration of the option in days:"
+msgstr "Чтобы запустить функцию ЭксПРЕСС, необходимо заплатить.<br/> <b>Срок действия услуги:</b> 7 дней"
+
+#: user/makepremium.php:43
+msgid "There's no need to pay the premium fee"
+msgstr "Не нужно платить"
+
+#: user/makepremium.php:53
+msgid "The item is already a premium ad"
+msgstr "Уже ЭксПРЕСС"
+
+#: user/menu.php:14
+msgid "Robokassa & your listings"
+msgstr "Премиум услуги "
+
+#: user/menu.php:18
+msgid "Move ad on top"
+msgstr "Поднять в ТОП"
+
+#: user/menu.php:19
+msgid "3x views!"
+msgstr "3х просмотров!"
+
+#: user/menu.php:20
+msgid "This function moves you ad once on the top of the you category and the main page too."
+msgstr "<b>Поднять в ТОП</b> – эта опция перемещает Ваше объявление вверх по списку и делает его просмотр пользователями сайта первоочередным. Разместив объявление в ТОПе, вы получите значительно БОЛЬШЕ ПРОСМОТРОВ и успешных коммерческих контактов!<br/><b>Срок действия услуги:</b> 7 дней. <br/><b>Цена услуги:</b> 20 ГРН."
+
+#: user/menu.php:23
+msgid "This option allows to attract the visitors attention on you ads. Background of your ad becomes highlighted"
+msgstr "<b>Выделение ЦВЕТОМ</b> – эта опция визуально выделяет Ваше объявление среди прочих, и за счет этого ПРИВЛЕКАЕТ к нему дополнительное ВНИМАНИЕ пользователей сайта. Яркий желтый цвет, в соответствии с психологией восприятия цвета, способствует успешным продажам. <br/><b>Срок действия услуги:</b> 7 дней. <br/><b>Цена услуги:</b> 10 ГРН."
+
+#: user/menu.php:26
+msgid "You don't have any listing yet"
+msgstr "У Вас нет объявлений"
+
+#: user/menu.php:34
+msgid "Publication date"
+msgstr "Дата публикации"
+
+#: user/menu.php:35 user/pack.php:30
+msgid "Price"
+msgstr "Цена"
+
+#: user/menu.php:40
+msgid "Paid!"
+msgstr "Оплачено!"
+
+#: user/menu.php:42
+msgid "Pay for this item"
+msgstr "Оплата для этого объявления"
+
+#: user/menu.php:53
+msgid "Already premium!"
+msgstr "Уже ЭксПРЕСС!"
+
+#: user/menu.php:67 user/uptop.php:9
+msgid "Move on Top"
+msgstr "Поднять в Топ"
+
+#: user/menu.php:73
+msgid "Already highlight!"
+msgstr "Уже выделено цветом!"
+
+#: user/pack.php:17
+#, php-format
+msgid "Credit packs. Your current credit is %s"
+msgstr "В Вашем кошельке %s"
+
+#: user/pack.php:19
+msgid "Your wallet is empty. Buy some credits."
+msgstr "Ваш кошелек пуст. Пополните его."
+
+#: user/pack.php:29
+#, php-format
+msgid "Credit pack #%d"
+msgstr "Пополнить кошелек #%d"
+
+#: user/pack.php:33
+#, php-format
+msgid "Credit for %s%s at %s"
+msgstr "Пополнение кошелька %s %s на %s"
+
+#: user/pack.php:33
+msgid "Add funds"
+msgstr "Пополнить "
+
+#: user/payperpublish.php:13
+msgid "Continue the publish process"
+msgstr "Продолжить процесс публикации"
+
+#: user/payperpublish.php:20
+msgid "In order to make visible your ad to other users, it's required to pay a fee"
+msgstr "Вам необходимо заплатить, чтобы объявление было видно на сайте другим пользователям"
+
+#: user/payperpublish.php:26 user/payperpublish.php:28 user/payperpublish.php:31
+#, php-format
+msgid "Publish fee for item %d"
+msgstr "Оплата размещения объявления %d"
+
+#: user/payperpublish.php:26 user/payperpublish.php:28 user/payperpublish.php:31
+msgid "Publish item"
+msgstr "Публикация объявления"
+
+#: user/payperpublish.php:43
+msgid "There's no need to pay the publish fee"
+msgstr "Не нужно оплачивать публикацию"
+
+#: user/payperpublish.php:52
+msgid "The publish fee is already paid"
+msgstr "Публикация уже оплачена"
+
+#: user/uptop.php:18
+msgid "In order move to top your ad, it's required to pay a fee"
+msgstr "Для поднятия в ТОП Вашего объявления, необходимо заплатить"
+
+#: user/uptop.php:42
+msgid "There's no need to pay Move to Top"
+msgstr "Не нужно оплачивать поднятие в топ"
+
+#: user/wallet.php:67
+msgid "There were some errors, please try again later or contact the administrators"
+msgstr "Ваш платеж не завершен.  Свяжитесь с администрацией"
+
+#: robokassa/payinvoice.php:52
+msgid "Attention! Make sure that ad text does not exceed 250 characters"
+msgstr "Внимание! Убедитесь, что объем текста Вашего объявления не превышает 250 cимволов (с пробелами). Если этот лимит превышен, текст будет сокращен автоматически. Подробнее об условии публикации объявлений в газете «Столица» <a href=\"#\">здесь</a>. Напоминаем, что в газете будет опубликовано одно фото – первое в ряду представленных на сайте."
+
+#: robokassa/payinvoice.php:53
+msgid "The ad will look like"
+msgstr "Объявление будет выглядеть:"
+
+#: robokassa/payinvoice.php:55
+msgid "Return to the ad"
+msgstr "Вернуться к объявлению"
+
+#~ msgid "User ID"
+#~ msgstr "ID пользователя"
+
+#~ msgid "UserID"
+#~ msgstr "ID пользователя"
+
+#~ msgid "Need small modifictions of theme files. Need add 2 id with functions in search files. "
+#~ msgstr "Нужно сделать изменения в вашем шаблоне."
+
+#~ msgid "This links insert in your account Robokassa. Metod - POST."
+#~ msgstr "Ссылки ниже вставьте в настройках своего магазина в кабинет Robokassa. Метод отправки данных везде - POST. Для настройки  Выделения цветом прочтите файл INSTRUCTION_RU!!!.txt в папке с плагином."
+
+#~ msgid "Robokassa Options"
+#~ msgstr "Robokassa опции"
+
+#~ msgid "Categories fees"
+#~ msgstr "Цены по категориям"
+
+#~ msgid "Currency is only Russian Ruble"
+#~ msgstr "Все платежи возможны только в российских рублях."
+
+#~ msgid "Publish fee RUB"
+#~ msgstr "Цена публикации - Руб."
+
+#~ msgid "Move to top RUB"
+#~ msgstr "Поднятие в топ - Руб."
+
+#, fuzzy
+#~ msgid "he current fee for this category is: %.2f %s"
+#~ msgstr "Цена для данной категории: %.2f %s"
+
+#~ msgid "Сделать премиум"
+#~ msgstr "Robokassa options"
+
+#~ msgid "Поднять объявление"
+#~ msgstr "Поднять объявление"
+
+#~ msgid "WalletOne settings"
+#~ msgstr "WalletOne настройки"
+
+#~ msgid "Online store ID"
+#~ msgstr "Идентификатор магазина"
+
+#~ msgid "Key"
+#~ msgstr "Ключ "
+
+#~ msgid "Walletone Options"
+#~ msgstr "Walletone Опции"
+
+#~ msgid "Walletone options"
+#~ msgstr "Walletone опции"
+
+#~ msgid "Payment is not made!"
+#~ msgstr "Платёж не сделан!"
+
+#~ msgid "Payment was successful!"
+#~ msgstr "Оплата произведена!"
