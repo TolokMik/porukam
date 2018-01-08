@@ -92,10 +92,8 @@ $(document).ready(function(){
   <div id="footer-share">
     <div class="text">
       <span class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo osc_base_url(); ?>" title="<?php echo osc_esc_html(__('Share us on Facebook', 'zara')); ?>" target="_blank"><i class="fa fa-facebook"></i></a></span>
-      <span class="pinterest"><a href="https://pinterest.com/pin/create/button/?url=<?php echo osc_base_url(); ?>/oc-content/themes/zara/images/logo.jpg&media=<?php echo osc_base_url(); ?>&description=" title="<?php echo osc_esc_html(__('Share us on Pinterest', 'zara')); ?>" target="_blank"><i class="fa fa-pinterest"></i></a></span>
       <span class="twitter"><a href="https://twitter.com/home?status=<?php echo osc_base_url(); ?>%20-%20<?php _e('your', 'zara'); ?>%20<?php _e('classifieds', 'zara'); ?>" title="<?php echo osc_esc_html(__('Tweet us', 'zara')); ?>" target="_blank"><i class="fa fa-twitter"></i></a></span>
       <span class="google-plus"><a href="https://plus.google.com/share?url=<?php echo osc_base_url(); ?>" title="<?php echo osc_esc_html(__('Share us on Google+', 'zara')); ?>" target="_blank"><i class="fa fa-google-plus"></i></a></span>
-      <span class="linkedin"><a href="https://www.linkedin.com/shareArticle?mini=true&url=<?php echo osc_base_url(); ?>&title=<?php echo osc_esc_html(__('My', 'zara')); ?>%20<?php echo osc_esc_html(__('classifieds', 'zara')); ?>&summary=&source=" title="<?php echo osc_esc_html(__('Share us on LinkedIn', 'zara')); ?>" target="_blank"><i class="fa fa-linkedin"></i></a></span>
     </div>
   </div>
 </div>
